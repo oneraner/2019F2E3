@@ -1,0 +1,102 @@
+body{
+    background: #FCFBF6;
+}
+.header{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 1366px;
+    height: 85px;
+}
+.header a{
+    color: #AEAEAE;
+    text-decoration: none;
+}
+.header a:hover{
+    color: #707070;
+}
+.header-list-item {
+    display: inline-flex;
+    list-style-type: none;
+    font-family: Roboto,bold;
+    font-size: 14px;
+}
+.header li{
+    margin-right:50px; 
+}
+.header-user{
+    width: 180px;
+    font-family: Roboto,bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.push{
+    padding-right: 400px;
+}
+.marginright{
+    margin-right: 30px;
+}
+.body{
+    width: 1366px;
+    display: inline-flex;
+    justify-content: center;
+}
+.cdtitle{
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 63px;
+}
+.cdtitle img{
+    max-width: 300px;
+    max-height: 300px;
+}
+.body-cdtitle-men{
+    font-family: Roboto,bold;
+    font-size: 24px;
+}
+.body-cdtitle-name{
+    font-family: Roboto,bold;
+    font-size: 20px;
+}
+.body-cdtitle-date{
+    font-family: Roboto,bold;
+    font-size: 16px;
+}
+.lovelist{
+    width: 472px;
+}
+.lovelist-item{
+    list-style-type: none;
+}
+.lovelist-item-li{
+    display: flex;
+    justify-content: space-between;
+}
+.lovelist-item-num{
+    margin-right: 27px;
+}
+.lovelist-item-word{
+    margin-right: 200px;
+}
+.fixplayer{
+    width: 1388px;
+    height: 104.8px;
+    display: inline-flex;
+    background-image:url(image/player_background@2x.png);
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+}
+.fixplayer-cdfirst img{
+    max-width: 47px;
+    max-height: 47px;
+}
+.color707070{
+    color:#707070;
+}
+.colorAEAEAE{
+    color: #AEAEAE;
+}
